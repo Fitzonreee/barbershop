@@ -1,0 +1,81 @@
+@use 'colors' as *;
+@use 'typography' as *;
+@use 'sizes' as *;
+
+// Color tokens
+$color-text-default: $color-primary-700;
+$color-background-default: $color-primary-100;
+$color-text-interactive-default: $color-accent-400;
+$color-text-interactive-hover: $color-accent-500;
+
+$letter-spacing-loose: 0.16em;
+
+// Body
+$body-font-family: $font-family-base;
+$body-font-size: $font-size-400;
+$body-line-height: 1.5;
+$body-font-weight: $font-weight-default;
+$body-text-color: $color-text-default;
+$body-background-color: $color-background-default;
+
+// General
+$link-color: $color-text-interactive-default;
+$link-color-hover: $color-text-interactive-hover;
+
+$heading-font-family: $font-family-accent;
+$heading-color-default: $body-text-color;
+$heading-font-weight: $font-weight-bold;
+$heading-letter-spacing: $letter-spacing-loose;
+$heading-line-height: 1;
+$heading-text-transform: uppercase;
+
+// border-radius
+$border-radius-1: $size-2;
+$border-radius-2: $size-4;
+
+// shadows
+$box-shadow-1: 0 $size-1 $size-4 rgb(0 0 0 / 0.05);
+$box-shadow-2: 0 $size-1 $size-4 rgb(0 0 0 / 0.15);
+
+// Layout
+$grid-gap: $size-6;
+$flex-group-gap: $size-4;
+
+$hero-padding-block: clamp(15rem, 15vh, 20rem);
+$section-padding-block: clamp(3rem, 10vh, 7rem);
+
+$container-min-margin-inline: $size-4;
+$container-max-width: 60rem;
+$container-max-width-narrow: 40rem;
+$container-max-width-wide: 75rem;
+
+// Buttons
+$button-font-family: $body-font-family;
+$button-font-size: $font-size-600;
+$button-font-weight: $font-weight-bold;
+$button-padding-default: $size-3 $size-9; // 12px 32px
+$button-border: 0;
+$button-border-radius: $border-radius-1;
+
+$button-accent-color: $color-neutral-100;
+$button-accent-background: $color-accent-400;
+$button-accent-color-hover: $color-neutral-100;
+$button-accent-background-hover: $color-accent-500;
+
+$button-primary-color: $color-neutral-100;
+$button-primary-background: $color-primary-700;
+$button-primary-color-hover: $color-neutral-100;
+$button-primary-background-hover: $color-primary-800;
+
+// Cards
+$card-flow-spacing: $size-2;
+$card-body-padding: $size-8;
+$card-background-default: $color-primary-100;
+$card-color-default: $body-text-color;
+$card-font-family: $body-font-family;
+$card-line-height: 1.25;
+$card-border-radius: $border-radius-2;
+$card-box-shadow: $box-shadow-1;
+
+$card-heading-color-default: $card-color-default;
+$card-heading-font-size: $font-size-600;

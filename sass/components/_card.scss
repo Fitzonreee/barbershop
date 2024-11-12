@@ -1,0 +1,24 @@
+@use "../abstracts/" as *;
+
+
+.card {
+  display: grid;
+  gap: $card-flow-spacing;
+  padding: $card-body-padding;
+  background-color: $card-background-default;
+  font-family: $card-font-family;
+  color: $card-color-default;
+  line-height: $card-line-height;
+  border-radius: $card-border-radius;
+  box-shadow: $card-box-shadow;
+
+  // Temp - needs token and mq -- use .grid-auto-fit
+  max-width: calc(33.333% - $grid-gap);
+
+  &__heading {
+    @include heading(
+      $card-heading-font-size,
+      $card-heading-color-default
+    )
+  }
+}
