@@ -9,6 +9,7 @@ $color-text-interactive-default: $color-accent-400;
 $color-text-interactive-hover: $color-accent-500;
 
 $letter-spacing-loose: 0.16em;
+$letter-spacing-wide: 0.2em;
 
 // Body
 $body-font-family: $font-family-base;
@@ -79,3 +80,41 @@ $card-box-shadow: $box-shadow-1;
 
 $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-600;
+
+// Site header
+$site-header-background-color: $color-primary-800;
+$site-header-color: $color-neutral-100;
+$site-header-padding: $size-8 0;
+$side-header-margin: 0;
+$site-header-justification: space-between;
+$site-header-alignment: start;
+
+// Navigation
+$navigation-color: $site-header-color;
+$navigation-color-hover: $color-primary-300;
+$navigation-font-family: $font-family-accent;
+$navigation-font-size: $font-size-400;
+$navigation-font-weight: $font-weight-bold;
+$navigation-letter-spacing: $letter-spacing-wide;
+$navigation-spacing: $size-9;
+
+// Form
+$form-label-color: $body-text-color;
+$form-label-font-family: $body-font-family;
+$form-label-font-weight: $font-weight-bold;
+$form-label-font-size: $body-font-size;
+
+$form-input-color: $body-text-color;
+$form-input-font-family: $body-font-family;
+$form-input-font-weight: $font-weight-semi-bold;
+$form-input-font-size: $body-font-size;
+$form-input-background-color: $color-neutral-100;
+$form-input-border-default: 3px solid $color-primary-200;
+$form-input-border-focus: 3px solid $color-primary-400;
+$form-input-padding: $size-3;
+$form-input-border-radius: $border-radius-1;
+
+$form-placeholder-color: $color-primary-300;
+$form-placeholder-font-family: $form-input-font-family;
+$form-placeholder-font-weight: $form-input-font-weight;
+$form-placeholder-font-size: $body-font-size;

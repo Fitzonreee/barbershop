@@ -1,0 +1,22 @@
+@use "../abstracts/" as *;
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $size-8;
+
+  @include mq(small) {
+    grid-template-columns: 1fr;
+  }
+
+  .form-group {
+    display: grid;
+  }
+
+  .button {
+    grid-column-end: -1;
+    justify-self: end;
+    margin-block-start: $size-4;
+  }
+
+}
