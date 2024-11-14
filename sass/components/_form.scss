@@ -2,11 +2,14 @@
 
 .contact-form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: $size-8;
 
   @include mq(small) {
     grid-template-columns: 1fr;
+  }
+
+  @include mq(medium) {
+    grid-template-columns: 1fr 1fr;
   }
 
   .form-group {
